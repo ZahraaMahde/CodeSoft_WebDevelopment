@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="website icon" type="png" href="images/calculator_icon.png" />
+</head>
+
+<body>
+    
+    <div class="container">
+        <input type="text" id="display" readonly>
+        <button onclick="Number('7')">7</button>
+        <button onclick="Number('8')">8</button>
+        <button onclick="Number('9')">9</button>
+        <button onclick="Operator('+')">+</button>
+        <button onclick="Number('4')">4</button>
+        <button onclick="Number('5')">5</button>
+        <button onclick="Number('6')">6</button>
+        <button onclick="Operator('-')">-</button>
+        <button onclick="Number('1')">1</button>
+        <button onclick="Number('2')">2</button>
+        <button onclick="Number('3')">3</button>
+        <button onclick="Operator('*')">*</button>
+        <button onclick="Number('0')">0</button>
+        <button onclick="clearDisplay()">C</button>
+        <button onclick="calculate()">=</button>
+        <button onclick="Operator('/')">/</button>
+      </div>
+    
+      <script src="script.js"></script>
+</body>
+
+</html>
